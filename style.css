@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  padding-left: 1.6em;
+  padding-right: 1.6em;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer {
+  display: flex;
+  background: #13183f;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.6em 1.6em 3.6em 1.6em;
+  margin-top: 80px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+  color: #13183f;
+}
+.butt-1 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: white;
+  background: #13183f;
+  border-radius: 28px;
+  padding: 10px 24px 10px 24px;
+  border: none;
+}
+h2 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 5rem;
+  color: #13183f;
+  margin-top: 38px;
+}
+.paragrapi {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #83869a;
+  margin-top: 26px;
+}
+.butt-2 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #ffffff;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 31.5px;
+  padding: 15px 37px 15px 37px;
+  border: none;
+  margin-top: 24px;
+}
+.header-1 {
+  padding: 16px 16px 0 16px;
+}
+.header-2 {
+  padding: 16px 16px 0 16px;
+}
+.el-1 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #ffffff;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 10px;
+  padding: 24px 28px 32px 28px;
+}
+.title {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #13183f;
+}
+.theme {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+  margin-top: 16px;
+}
+.gstart {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  margin-top: 24px;
+}
+.el-2 {
+  padding: 56px 29px 32px 28px;
+  background: white;
+  border-radius: 10px;
+}
+.el-3 {
+  padding: 56px 29px 32px 28px;
+  background: white;
+  border-radius: 10px;
+}
+.el-4 {
+  padding: 56px 29px 32px 28px;
+  background: white;
+  border-radius: 10px;
+}
+.el-5 {
+  padding: 56px 29px 32px 28px;
+  background: white;
+  border-radius: 10px;
+}
+.el-6 {
+  padding: 56px 29px 32px 28px;
+  background: white;
+  border-radius: 10px;
+}
+h6 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.butt-3 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: white;
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+  border-radius: 28px;
+  padding: 10px 24px 10px 24px;
+  border: none;
+}
+.box-icon {
+  position: absolute;
+  transform: translate(-4px, -83px);
+}
+.photo-tablet {
+  display: none;
+}
+.photo-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .photo-mobile {
+    display: none;
+  }
+  .photo-tablet {
+    display: inline;
+    position: absolute;
+    right: -299px;
+    bottom: -70px;
+  }
+  .container {
+    margin-top: 210px;
+  }
+  h2 {
+    width: 326px;
+    margin-top: 105px;
+  }
+  .paragrapi {
+    width: 398px;
+  }
+  .header-1 {
+    padding: 24px 40px 0 40px;
+  }
+  .header-2 {
+    padding-left: 39px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 80px;
+  }
+  .el-1 {
+    grid-area: 1 / 1;
+  }
+  .el-2 {
+    grid-area: 1 / 2;
+  }
+  .el-3 {
+    grid-area: 2/ 1;
+  }
+  .el-4 {
+    grid-area: 2/ 2;
+  }
+  .el-5 {
+    grid-area: 3/ 1;
+  }
+  .el-6 {
+    grid-area: 3 / 2;
+  }
+  .header {
+    position: relative;
+    overflow: hidden;
+    height: 550px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .photo-tablet {
+    display: none;
+  }
+  .photo-desktop {
+    display: block;
+    position: absolute;
+    bottom: -67px;
+    right: -345px;
+  }
+  .header-1 {
+    padding: 24px 165px 0 165px;
+  }
+  .header-2 {
+    padding-left: 165px;
+  }
+  h2 {
+    margin-top: 162px;
+  }
+  .container {
+    margin-top: 226px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 80px;
+    padding-left: 165px;
+    padding-right: 165px;
+  }
+  .el-1 {
+    grid-area: 1 / 1;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .el-2 {
+    grid-area: 1 / 2;
+  }
+  .el-3 {
+    grid-area: 1 / 3;
+  }
+  .el-4 {
+    grid-area: 2 / 1;
+  }
+  .el-5 {
+    grid-area: 2 / 2;
+  }
+  .el-6 {
+    grid-area: 2 / 3;
+  }
+
+  h2 {
+    font-size: 56px;
+    line-height: 71px;
+    width: 457px;
+  }
+  .paragrapi {
+    font-size: 18px;
+    line-height: 28px;
+    width: 398px;
+  }
+  h1 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .butt-1 {
+    padding: 14px 32px;
+    font-size: 18px;
+  }
+  .butt-2 {
+    padding: 19px 32px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .butt-3 {
+    padding: 14px 31px;
+    font-size: 18px;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .theme {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  h6 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .butt-1:hover{
+    cursor: pointer;
+    background: #666CA3;
+  }
+  .butt-2:hover{
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  }
+  .butt-3:hover{
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+  }
+  .header{
+    height: 700px;
+  }
+
+
+
+}
