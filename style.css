@@ -54,6 +54,7 @@ h1 {
   border-radius: 28px;
   padding: 10px 24px 10px 24px;
   border: none;
+  z-index: 1;
 }
 h2 {
   font-family: "Plus Jakarta Sans";
